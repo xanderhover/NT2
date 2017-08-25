@@ -42,8 +42,8 @@ cat << EOF >> ~/.bashrc
 
 #NETKIT
 
-alias vstart='vstart --append=root=98.0'
-alias lstart='lstart --pass=--append=root=98.0'
+#alias vstart='vstart --append=root=98.0'
+#alias lstart='lstart --pass=--append=root=98.0'
 
 export NETKIT_HOME=$HOME/NT2/netkit
 export MANPATH=$MANPATH:$NETKIT_HOME/man
@@ -57,8 +57,8 @@ EOF
 
 # during the installation we also need to check the configation
 
-alias vstart='vstart --append=root=98.0'
-alias lstart='lstart --pass=--append=root=98.0'
+#alias vstart='vstart --append=root=98.0'
+#alias lstart='lstart --pass=--append=root=98.0'
 
 export NETKIT_HOME=$HOME/NT2/netkit
 export MANPATH=$MANPATH:$NETKIT_HOME/man
